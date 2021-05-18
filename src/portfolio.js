@@ -5,14 +5,14 @@ import github from './assets/img/icons/common/github.svg'
 import airbnb from './assets/img/icons/common/airbnbLogo.png'
 
 export const greetings = {
-    "name": "Hanzla Tauqeer",
-    "title": "Hi all, I'm Hanzla",
-    "description": "A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-    "resumeLink": "https://cv.hanzla.ga"
+    "name": "Axel Conceicao",
+    "title": "Bonjour 👋,",
+    "description": "Je m'appelle Axel Conceicao j'ai 22 ans et je suis étudiant en 4ème année à l'Epitech. Passioné d'informatique et de la culture numérique mon objectif sur le long terme serait de travailler dans le développement web et plus précisément dans le front-end.",
+    "resumeLink": "https://cvdesignr.com/p/60a3b0803bac1?hl=fr_FR"
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'AxelConceicao',
 };
 
 export const contact = {
@@ -20,16 +20,16 @@ export const contact = {
 }
 
 export const socialLinks = {
-    "facebook": "https://www.facebook.com/1hanzla100",
-    "instagram": "https://www.instagram.com/1hanzla100",
-    "twitter": "https://twitter.com/1hanzla100",
-    "github": "https://github.com/1hanzla100",
-    "linkedin": "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/"
+    // "facebook": "https://www.facebook.com/1hanzla100",
+    // "instagram": "https://www.instagram.com/1hanzla100",
+    // "twitter": "https://twitter.com/1hanzla100",
+    "github": "https://github.com/AxelConceicao",
+    "linkedin": "https://www.linkedin.com/in/axelconceicao/"
 }
 
 export const skillsSection = {
-    title: 'What I do',
-    subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+    title: 'Mes compétences',
+    // subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
     skills: [
       emoji(
         '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
@@ -49,66 +49,78 @@ export const skillsSection = {
         skillName: 'css3',
         fontAwesomeClassname: 'vscode-icons:file-type-css',
       },
+      // {
+      //   skillName: 'sass',
+      //   fontAwesomeClassname: 'logos:sass',
+      // },
       {
-        skillName: 'sass',
-        fontAwesomeClassname: 'logos:sass',
+        skillName: 'vuejs',
+        fontAwesomeClassname: 'vscode-icons:file-type-vue',
       },
       {
         skillName: 'JavaScript',
         fontAwesomeClassname: 'logos:javascript',
       },
       {
-        skillName: 'TypeScript',
-        fontAwesomeClassname: 'logos:typescript-icon',
+        skillName: 'python',
+        fontAwesomeClassname: 'logos:python',
+      },
+      // {
+      //   skillName: 'TypeScript',
+      //   fontAwesomeClassname: 'logos:typescript-icon',
+      // },
+      {
+        skillName: 'django',
+        fontAwesomeClassname: 'vscode-icons:file-type-django',
       },
       {
         skillName: 'reactjs',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
       {
+        skillName: 'reactnative',
+        fontAwesomeClassname: 'vscode-icons:file-type-reacttemplate',
+      },
+      {
         skillName: 'nodejs',
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
-      {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
-      },
-      {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
+      // {
+      //   skillName: 'flutter',
+      //   fontAwesomeClassname: 'logos:flutter',
+      // },
+      // {
+      //   skillName: 'swift',
+      //   fontAwesomeClassname: 'vscode-icons:file-type-swift',
+      // },
       {
         skillName: 'npm',
         fontAwesomeClassname: 'vscode-icons:file-type-npm',
       },
-      {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
-      },
+      // {
+      //   skillName: 'sql-database',
+      //   fontAwesomeClassname: 'vscode-icons:file-type-sql',
+      // },
       {
         skillName: 'mongoDB',
         fontAwesomeClassname: 'vscode-icons:file-type-mongo',
       },
-      {
-        skillName: 'aws',
-        fontAwesomeClassname: 'logos:aws',
-      },
-      {
-        skillName: 'firebase',
-        fontAwesomeClassname: 'logos:firebase',
-      },
-      {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
-      },
+      // {
+      //   skillName: 'aws',
+      //   fontAwesomeClassname: 'logos:aws',
+      // },
+      // {
+      //   skillName: 'firebase',
+      //   fontAwesomeClassname: 'logos:firebase',
+      // },
       {
         skillName: 'git',
         fontAwesomeClassname: 'logos:git-icon',
       },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
+      // {
+      //   skillName: 'docker',
+      //   fontAwesomeClassname: 'logos:docker-icon',
+      // },
     ],
 }
 

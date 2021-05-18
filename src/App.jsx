@@ -9,9 +9,10 @@ import Education from "./containers/Education";
 import Experience from './containers/Experience';
 import Projects from './containers/Projects';
 import GithubProfile from './containers/GithubProfile'
+
 const App = () => {
     return ( 
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route path="/" exact render={props => (
                     <>
