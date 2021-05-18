@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/developer-portfolio/static/css/main.5ab3d93e.chunk.css",
+    "main.js": "/developer-portfolio/static/js/main.42b8a36a.chunk.js",
+    "main.js.map": "/developer-portfolio/static/js/main.42b8a36a.chunk.js.map",
+    "runtime-main.js": "/developer-portfolio/static/js/runtime-main.bbe4e328.js",
+    "runtime-main.js.map": "/developer-portfolio/static/js/runtime-main.bbe4e328.js.map",
+    "static/js/2.5098b223.chunk.js": "/developer-portfolio/static/js/2.5098b223.chunk.js",
+    "static/js/2.5098b223.chunk.js.map": "/developer-portfolio/static/js/2.5098b223.chunk.js.map",
+    "index.html": "/developer-portfolio/index.html",
+    "static/css/main.5ab3d93e.chunk.css.map": "/developer-portfolio/static/css/main.5ab3d93e.chunk.css.map",
+    "static/js/2.5098b223.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.5098b223.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/developer-portfolio/static/media/Agustina.320d237b.otf",
+    "static/media/airbnbLogo.e8497507.png": "/developer-portfolio/static/media/airbnbLogo.e8497507.png",
+    "static/media/font-awesome.min.css": "/developer-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/github.6c955556.svg": "/developer-portfolio/static/media/github.6c955556.svg",
+    "static/media/google.eae9aa93.svg": "/developer-portfolio/static/media/google.eae9aa93.svg",
+    "static/media/nucleo.css": "/developer-portfolio/static/media/nucleo-icons.d6a66724.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bbe4e328.js",
+    "static/js/2.5098b223.chunk.js",
+    "static/css/main.5ab3d93e.chunk.css",
+    "static/js/main.42b8a36a.chunk.js"
+  ]
+}
