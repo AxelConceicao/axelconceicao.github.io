@@ -2,7 +2,6 @@ import React, { useState, createRef } from 'react'
 import { Badge, Card, CardBody, CardTitle, CardSubtitle, CardText, CardHeader, Col } from 'reactstrap'
 import ColorThief from 'colorthief'
 import { Fade } from 'react-reveal'
-import '../assets/css/App.css'
 
 const ExperienceCard = ({ data }) => {
   const [colorArrays, setColorArrays] = useState([])

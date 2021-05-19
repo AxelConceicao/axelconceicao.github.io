@@ -16,3 +16,20 @@
 .card-zoom {
   transition: all 0.25s ease-in-out;
 }
+
+.BrainhubCarousel__arrows {
+  outline: none !important;
+}
+
+.BrainhubCarousel__arrows {
+  background-color: #212529;
+}
+
+.BrainhubCarousel__arrows:hover:enabled,
+.BrainhubCarousel__arrows:hover {
+  background-color: #4d5257;
+}
+
+.BrainhubCarousel__arrows:disabled {
+  background-color: #ccc !important;
+}

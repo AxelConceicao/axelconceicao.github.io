@@ -210,8 +210,8 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    name: 'Polaris',
+    desc: "Polaris a été créé dans le cadre de notre projet de fin d'étude au sein d'EPITECH en partenariat avec l'institut Pasteur et a pour but d'aider les spécialistes à mieux déceler la bipolarité chez les patients souffrant de trouble de l'humeur.",
   },
   {
     name: 'lorem ipsum',

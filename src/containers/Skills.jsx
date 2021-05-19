@@ -7,7 +7,6 @@ import webdev from '../assets/lottie/webdev.json'
 import { Container, Row, Col, UncontrolledTooltip } from 'reactstrap'
 
 import { skillsSection } from '../portfolio'
-import '../assets/css/App.css'
 
 const Skills = () => {
   return (
