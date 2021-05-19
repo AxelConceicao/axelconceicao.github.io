@@ -16,7 +16,7 @@ const Greetings = () => {
     document.scrollingElement.scrollTop = 0
   })
   return (
-    <Fade top duration={1000} distance="40px">
+    <Fade top duration={1000} distance="100px">
       <main ref="main">
         <div className="position-relative">
           <section className="section section-lg section-shaped pb-250">
@@ -51,7 +51,7 @@ const Greetings = () => {
                     <p className="lead text-white">{greetings.description}</p>
                     <SocialLinks />
                     <div className="btn-wrapper my-4">
-                      <Button className="btn-white btn-icon mb-3 mb-sm-0 ml-1" color="default" href={greetings.resumeLink}>
+                      <Button className="btn-white btn-icon mb-3 mb-sm-0 ml-1" color="default" target="_blank" rel="noopener noreferrer" href={greetings.resumeLink}>
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
