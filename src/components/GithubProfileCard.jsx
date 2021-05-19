@@ -8,7 +8,7 @@ const GithubProfileCard = ({ prof }) => {
     <Card className="section-lg bg-gradient-dark shadow-lg border-0">
       <div style={{ position: 'absolute', width: '100%', top: '0' }}>
         <Particles
-          height="450px"
+          height="425px"
           params={{
             particles: {
               number: {
@@ -30,9 +30,14 @@ const GithubProfileCard = ({ prof }) => {
               />
             </Col>
             <Col lg="8" className="order-lg-1">
-              <h2 className="text-white">Reach Out to me!</h2>
-              <p className="lead text-white mt-3">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL</p>
-              <p className="text-white mt-3">{prof.bio}</p>
+              {/* <h2 className="text-white">Reach Out to me!</h2>
+              <p className="lead text-white mt-3">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL</p> */}
+              <strong className="text-white mb-2">Axel Conceicao</strong>
+              <p className="text-white mb-0">{prof.bio}</p>
+              <p className="text-white mb-2">
+                <i className="fa fa-envelope mr-2" />
+                axel.conceicao@epitech.eu
+              </p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-dark">
                 <i className="ni ni-pin-3 text-dark mr-2" />
                 {prof.location}
