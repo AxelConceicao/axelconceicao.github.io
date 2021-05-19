@@ -3,6 +3,16 @@
   padding: 0 10px;
   transition: all 0.25s ease-in-out;
 }
+
 .myzoom {
+  transition: all 0.25s ease-in-out;
+}
+
+.card-zoom:hover {
+  transform: scale(1.075);
+  transition: all 0.25s ease-in-out;
+}
+
+.card-zoom {
   transition: all 0.25s ease-in-out;
 }
