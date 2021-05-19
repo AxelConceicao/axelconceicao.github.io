@@ -30,8 +30,8 @@ export const skillsSection = {
   title: 'Mes compétences',
   // subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   skills: [
-    emoji('⚡ Développement front-end intéractif pour vos applications web.'),
-    emoji('⚡ Conception web entièrement responsive et portable sur mobile.'),
+    emoji('⚡ Développement front-end intéractif pour vos applications web'),
+    emoji('⚡ Conception web entièrement responsive et portable sur mobile'),
     emoji('⚡ Communiquer avec le back-end de l’application grâce à une API'),
   ],
 
@@ -139,26 +139,28 @@ export const educationInfo = [
     schoolName: 'Epitech',
     logo: {
       name: 'epitech',
-      height: '68px',
+      height: '60px',
+      color: '#006AB2',
     },
     subHeader: 'Expert en technologie de l’information',
     duration: 'De 2017 à 2022',
-    desc: 'Le programme Grande École Epitech ',
+    desc: 'Le programme Grande Ecole est le cursus historique d’Epitech et se déroule en 5 ans. A Epitech, on apprend à apprendre grâce à une pédagogie unique par projets.',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     ],
+    more: 'https://www.epitech.eu/fr/pedagogie-projets/'
   },
   {
     schoolName: 'Dublin City University',
     logo: {
       name: 'dcu',
       height: '90px',
+      color: '#003D68'
     },
     subHeader: 'Engineering and Computing (ECSAO)',
     duration: 'De Septembre 2020 à Mai 2021',
     desc: "Le programme d'études à l'étranger de DCU m'a permit de consolider mes compétences acquises à Epitech et en acquérir de nouvelles.",
-    descBullets: ['Lorem ipsum dolor sit amet, consectetfgur adipiscing elit', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
+    descBullets: [],
+    more: 'https://www.dcu.ie/international/about-the-dcu-study-abroad-programme'
   },
 ]
 
