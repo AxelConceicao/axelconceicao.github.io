@@ -1,6 +1,10 @@
 {
   "name": "",
   "version": "1.0.0",
+  "private": true,
+  "engine": {
+    "node": "12.x"
+  },
   "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
   "main": "index.js",
   "repository": {
@@ -33,7 +37,6 @@
     "axios": "^0.21.1",
     "bootstrap": "4.3.1",
     "classnames": "2.2.6",
-    "colorthief": "^2.3.0",
     "graphql": "^15.4.0",
     "headroom.js": "0.11.0",
     "moment": "2.24.0",
