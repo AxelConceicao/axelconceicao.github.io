@@ -1,21 +1,8 @@
-import React, { useState, createRef } from 'react'
+import React from 'react'
 import { Badge, Card, CardBody, CardTitle, CardSubtitle, CardText, CardHeader, Col } from 'reactstrap'
-import ColorThief from 'colorthief'
 import { Fade } from 'react-reveal'
 
 const ExperienceCard = ({ data }) => {
-  const [colorArrays, setColorArrays] = useState([])
-  const imgRef = createRef()
-
-  function getColorArrays() {
-    const colorThief = new ColorThief()
-    setColorArrays(colorThief.getColor(imgRef.current))
-  }
-
-  function rgb(values) {
-    return typeof values === 'undefined' ? null : 'rgb(' + values.join(', ') + ')'
-  }
-
   return (
     <Col lg="4">
       <Fade left duration={1000} distance="40px">
@@ -26,13 +13,10 @@ const ExperienceCard = ({ data }) => {
           <CardBody style={{ minHeight: '500px' }}>
             <div className="d-flex mb-3" style={{ height: '120px', alignItems: 'center' }}>
               <img
-                ref={imgRef}
                 className="img-center img-fluid"
-                top
                 src={data.companylogo}
                 style={{ width: data.logowidth }}
-                onLoad={() => getColorArrays()}
-                alt=""
+                alt={data.company}
               />
             </div>
             <CardTitle tag="h5">{data.role}</CardTitle>
@@ -40,21 +24,22 @@ const ExperienceCard = ({ data }) => {
             <Badge style={{ backgroundColor: data.color }} color="info" className="mt-2">
               {data.status}
             </Badge>
-            <CardText className="description my-3 text-left">
-              <p style={{ textAlign: 'justify' }}>{data.desc}</p>
-              <ul className="pl-4">
+            <div className="mt-3 text-justify">
+              <CardText>{data.desc}</CardText>
+              <ul className="pl-4 mb-0">
                 {data.descBullets
                   ? data.descBullets.map((desc) => {
                       return (
-                        <li style={{ textAlign: 'justify' }} key={desc}>
-                          {desc}
+                        <li key={desc}>
+                          <p className="mb-1" style={{ fontSize: '14px' }}>
+                            {desc}
+                          </p>
                         </li>
                       )
                     })
                   : null}
               </ul>
-            </CardText>
-            <div></div>
+            </div>
           </CardBody>
         </Card>
       </Fade>

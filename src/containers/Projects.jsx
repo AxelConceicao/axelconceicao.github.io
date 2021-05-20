@@ -22,8 +22,8 @@ const Projects = () => {
             </div>
           </div>
           <Row className="row-grid align-items-center">
-            {projects.map((data) => {
-              return <ProjectsCard data={data} />
+            {projects.map((data, i) => {
+              return <ProjectsCard data={data} key={i} />
             })}
           </Row>
         </Fade>

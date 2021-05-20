@@ -7,7 +7,7 @@ const EdutionCard = ({ education }) => {
     <Fade right duration={1000} distance="40px">
       <Card className="card-lift--hover shadow mt-4">
         <CardBody style={{ minHeight: '200px' }}>
-          <div className="d-flex" style={{flexDirection: 'column' }}>
+          <div className="d-flex" style={{ flexDirection: 'column' }}>
             <div className="d-flex" style={{ alignItems: 'center' }}>
               <div className="mr-3">
                 <img src={require(`../assets/img/${education.logo.name}.png`).default} alt="Logo" height={education.logo.height} />
@@ -26,14 +26,14 @@ const EdutionCard = ({ education }) => {
             </div>
             <p className="text-dark description mt-3" style={{ textAlign: 'justify' }}>
               {education.desc}
-              <ul>
-                {education.descBullets
-                  ? education.descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>
-                    })
-                  : null}
-              </ul>
             </p>
+            <ul>
+              {education.descBullets
+                ? education.descBullets.map((desc) => {
+                    return <li key={desc}>{desc}</li>
+                  })
+                : null}
+            </ul>
             <a target="_blank" rel="noopener noreferrer" href={education.more} style={{ fontSize: '14px', color: education.logo.color }}>
               En savoir plus...
             </a>

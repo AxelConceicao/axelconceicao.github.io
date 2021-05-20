@@ -22,8 +22,8 @@ const Experience = () => {
             </div>
           </div>
           <Row className="row-grid align-items-center">
-            {experience.map((data) => {
-              return <ExperienceCard data={data} />
+            {experience.map((data, i) => {
+              return <ExperienceCard data={data} key={i} />
             })}
           </Row>
         </Fade>

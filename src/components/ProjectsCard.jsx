@@ -51,16 +51,16 @@ const ProjectsCard = ({ data }) => {
               <Col lg="4">
                 <strong className="mb-1">Technologies utilisées :</strong>
                 <ul>
-                  {data.techno.map((item) => (
-                    <li>{item}</li>
+                  {data.techno.map((item, i) => (
+                    <li key={i}>{item}</li>
                   ))}
                 </ul>
               </Col>
             </div>
             <Carousel plugins={['arrows']} value={value} onChange={onChange}>
-              {data.images.map((img) => {
+              {data.images.map((img, i) => {
                 return (
-                  <div className="d-flex" style={{ flexDirection: 'column' }}>
+                  <div key={i} className="d-flex" style={{ flexDirection: 'column' }}>
                     <ImageZoom
                       image={{
                         src: process.env.PUBLIC_URL + img.src,
