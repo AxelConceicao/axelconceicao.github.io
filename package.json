@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://hanzla.ga"
   },
-  "homepage": "https://axelconceicao.github.io/",
+  "homepage": "https://www.conceicao.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
