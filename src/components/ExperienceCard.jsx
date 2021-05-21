@@ -10,7 +10,7 @@ const ExperienceCard = ({ data }) => {
           <CardHeader style={{ background: data.color }}>
             <h3 className="text-white mb-0">{data.company}</h3>
           </CardHeader>
-          <CardBody style={{ minHeight: '500px' }}>
+          <CardBody style={{ maxHeight: '500px' }}>
             <div className="d-flex mb-3" style={{ height: '120px', alignItems: 'center' }}>
               <img
                 className="img-center img-fluid"
