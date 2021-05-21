@@ -9,62 +9,50 @@ export const projects = [
       {
         src: '/img/polaris/1.png',
         alt: 'Interface de connexion + choix de langue',
-        key: '1',
       },
       {
         src: '/img/polaris/2.png',
         alt: 'Gestionnaire des patients + menu latéral de la barre de navigation',
-        key: '2',
       },
       {
         src: '/img/polaris/3.png',
-        alt: 'Interface de création des patients',
-        key: '4',
+        alt: 'Interface de création des patients version anglaise',
       },
       {
         src: '/img/polaris/4.png',
         alt: 'Gestionnaire des formulaires + panneau latéral de filtrage des résultats',
-        key: '5',
       },
       {
         src: '/img/polaris/5.png',
         alt: 'Interface de création de formulaire + panneau latéral de paramètrage du formulaire ',
-        key: '6',
       },
       {
         src: '/img/polaris/8.png',
         alt: 'Aperçu suppression des formulaires sélectionnés',
-        key: '7',
       },
       {
         src: '/img/polaris/6.png',
         alt: 'Interface de création des programmes',
-        key: '8',
       },
       {
         src: '/img/polaris/7.png',
         alt: 'Interface de création des utilisateurs',
-        key: '9',
       },
       {
         src: '/img/polaris/9.png',
-        alt: 'Interface de connexion version mobile',
-        key: '10',
+        alt: 'Interface de connexion version mobile en anglais',
       },
       {
         src: '/img/polaris/10.png',
         alt: 'Aperçu barre de navigation ouverte version mobile',
-        key: '11',
       },
       {
         src: '/img/polaris/11.png',
         alt: 'Gestionnaire des formulaires version mobile (le panneau latéral est devenu un collapse en dessous du header)',
-        key: '12',
       },
       {
         src: '/img/polaris/12.png',
         alt: "Interface de création des formulaires (le panneau latéral s'est déplacé en dessous du header)",
-        key: '13',
       },
     ],
   },
@@ -78,47 +66,112 @@ export const projects = [
       {
         src: '/img/ELSYSTEM/1.png',
         alt: 'Interface de connexion',
-        key: '1',
       },
       {
         src: '/img/ELSYSTEM/2.png',
         alt: 'Page listant tous les produits + panneau latéral sélection catégorie/tag',
-        key: '2',
       },
       {
         src: '/img/ELSYSTEM/3.png',
         alt: 'Page produit',
-        key: '3',
       },
       {
         src: '/img/ELSYSTEM/4.png',
         alt: 'Aperçu panier',
-        key: '4',
       },
       {
         src: '/img/ELSYSTEM/5.png',
-        alt: 'Interface de paiement 1/2 (détails de facturation/expédition)',
-        key: '5',
+        alt: 'Page panier',
       },
       {
         src: '/img/ELSYSTEM/6.png',
-        alt: 'Interface de paiement 2/2',
-        key: '6',
+        alt: 'Aperçu tableu de bord',
       },
       {
         src: '/img/ELSYSTEM/7.png',
-        alt: 'Aperçu page "Mon compte"',
-        key: '7',
+        alt: 'Page commandes',
       },
       {
         src: '/img/ELSYSTEM/8.png',
-        alt: 'Page commandes',
-        key: '8',
+        alt: 'Page suivi de commande',
+      },
+    ],
+  },
+  {
+    name: 'Youtube Django',
+    desc: "Youtube Django est un projet réalisé dans le cadre du programme d'études à l'étranger de DCU. Le site reprend l'apparence de youtube de 2011 et offre la plupart des fonctionnalités disponibles sur youtube. En effet il permet l'upload de vidéo avec une génération de miniature à partir de la vidéo. Il y a également la possibilité de like/dislike une vidéo ou encore de s'abonner à la chaîne d'un utilisateur.",
+    demo: 'https://youtube-django.herokuapp.com/',
+    github: 'https://github.com/AxelConceicao/youtube-django',
+    techno: ['Django', 'Bootstrap', 'jQuery'],
+    images: [
+      {
+        src: '/img/youtube/2.png',
+        alt: "Page d'acceuil listant les vidéos par nombre de vues",
       },
       {
-        src: '/img/ELSYSTEM/9.png',
-        alt: 'Page suivi de commande',
-        key: '9',
+        src: '/img/youtube/4.png',
+        alt: 'Page vidéo avec panneau latéral affichant les suggestion de vidéos à voir',
+      },
+      {
+        src: '/img/youtube/1.png',
+        alt: "Page d'inscription avec gestion d'erreur avancée",
+      },
+      {
+        src: '/img/youtube/3.png',
+        alt: 'Page de connexion',
+      },
+      {
+        src: '/img/youtube/10.png',
+        alt: 'Aperçu de la fonctionnalité like/dislike',
+      },
+      {
+        src: '/img/youtube/11.png',
+        alt: "Page chaîne d'utilisateur listant toutes les vidéos qu'il a téléversé",
+      },
+      {
+        src: '/img/youtube/13.png',
+        alt: 'Aperçu de la fonctionnalité subscribe/unsubscribe',
+      },
+      {
+        src: '/img/youtube/5.png',
+        alt: "Page d'upload de vidéo lorsque le fichier soumit ne respecte pas le bon format",
+      },
+      {
+        src: '/img/youtube/6.png',
+        alt: "Page d'upload de vidéo lorsque la vidéo soumise dépasse le poids autorisé",
+      },
+      {
+        src: '/img/youtube/8.png',
+        alt: "Aperçu de la barre de progression pendant l'upload de la vidéo (réalisé avec Axios)",
+      },
+      {
+        src: '/img/youtube/9.png',
+        alt: "Une fois l'upload de la vidéo terminée une miniature encodé en base64 est générée (réalisé en Javascript)",
+      },
+      {
+        src: '/img/youtube/7.png',
+        alt: "Une fois la miniature générée l'utilisateur est redirigé vers la vidéo téléversée",
+      },
+      {
+        src: '/img/youtube/12.png',
+        alt: 'Page de recherche',
+      },
+    ],
+  },
+  {
+    name: 'EpiCovid',
+    desc: "Ce projet consiste à suivre et à visualiser l'évolution de la pandémie du Covid 19 grâce à une application web intuitive. Le site permet de voir le nombre d'infectés, le nombre de morts, le nombre de guéris par pays. Mais aussi de visualiser ces statistiques grâce à une carte dynamique et de suivre l'évolution de l'intérêt pour les recherches Google concerçant le conoravirus. Il dispose également d'un Time Travel, cette fonctionnalité inédite permet d'afficher les statistiques de l'épidémie à un moment T dans le passé.",
+    demo: 'https://epi-covid-19.herokuapp.com/',
+    github: 'https://github.com/EpiCovid',
+    techno: ['Vue.js', 'Vuetify'],
+    images: [
+      {
+        src: '/img/covid/1.jpg',
+        alt: "Unique page de l'application web",
+      },
+      {
+        src: '/img/covid/2.jpg',
+        alt: "Aperçu de la fonctionnalité Time Travel",
       },
     ],
   },
