@@ -12,23 +12,23 @@ export const projects = [
       },
       {
         src: '/img/polaris/2.png',
-        alt: 'Gestionnaire des patients + menu latéral de la barre de navigation',
+        alt: 'Aperçu menu latéral de la barre de navigation',
       },
       {
         src: '/img/polaris/3.png',
-        alt: 'Interface de création des patients version anglaise',
+        alt: 'Gestionnaire type pour objet (patient, formulaire, programme ou utilisateur)',
       },
       {
         src: '/img/polaris/4.png',
-        alt: 'Gestionnaire des formulaires + panneau latéral de filtrage des résultats',
+        alt: 'Interface de création de formulaire',
       },
       {
         src: '/img/polaris/5.png',
-        alt: 'Interface de création de formulaire + panneau latéral de paramètrage du formulaire ',
+        alt: 'Aperçu page de modification d\'objet',
       },
       {
         src: '/img/polaris/8.png',
-        alt: 'Aperçu suppression des formulaires sélectionnés',
+        alt: 'Aperçu suppression des objets sélectionnés',
       },
       {
         src: '/img/polaris/6.png',
@@ -48,11 +48,11 @@ export const projects = [
       },
       {
         src: '/img/polaris/11.png',
-        alt: 'Gestionnaire des formulaires version mobile (le panneau latéral est devenu un collapse en dessous du header)',
+        alt: 'Gestionnaire des formulaires version mobile',
       },
       {
         src: '/img/polaris/12.png',
-        alt: "Interface de création des formulaires (le panneau latéral s'est déplacé en dessous du header)",
+        alt: "Interface de création des formulaires",
       },
     ],
   },
