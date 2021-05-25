@@ -1,1 +1,1 @@
-web: npm run-script build
+web: npm --max-old-space-size=4096 run-script build
