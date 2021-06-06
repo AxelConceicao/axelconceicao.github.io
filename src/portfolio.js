@@ -41,11 +41,11 @@ export const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: 'html-5',
+      skillName: 'HTML5',
       fontAwesomeClassname: 'vscode-icons:file-type-html',
     },
     {
-      skillName: 'css3',
+      skillName: 'CSS3',
       fontAwesomeClassname: 'vscode-icons:file-type-css',
     },
     // {
@@ -53,15 +53,19 @@ export const skillsSection = {
     //   fontAwesomeClassname: 'logos:sass',
     // },
     {
-      skillName: 'vuejs',
+      skillName: 'Vuejs',
       fontAwesomeClassname: 'vscode-icons:file-type-vue',
+    },
+    {
+      skillName: 'Reactjs',
+      fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
     },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'logos:javascript',
     },
     {
-      skillName: 'python',
+      skillName: 'Python',
       fontAwesomeClassname: 'logos:python',
     },
     // {
@@ -69,19 +73,15 @@ export const skillsSection = {
     //   fontAwesomeClassname: 'logos:typescript-icon',
     // },
     {
-      skillName: 'django',
+      skillName: 'Nuxtjs',
+      fontAwesomeClassname: 'vscode-icons:file-type-nuxt',
+    },
+    {
+      skillName: 'Django',
       fontAwesomeClassname: 'vscode-icons:file-type-django',
     },
     {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
-    },
-    {
-      skillName: 'reactnative',
-      fontAwesomeClassname: 'vscode-icons:file-type-reacttemplate',
-    },
-    {
-      skillName: 'nodejs',
+      skillName: 'Nodejs',
       fontAwesomeClassname: 'logos:nodejs-icon',
     },
     // {
@@ -92,17 +92,21 @@ export const skillsSection = {
     //   skillName: 'swift',
     //   fontAwesomeClassname: 'vscode-icons:file-type-swift',
     // },
-    {
-      skillName: 'npm',
-      fontAwesomeClassname: 'vscode-icons:file-type-npm',
-    },
     // {
     //   skillName: 'sql-database',
     //   fontAwesomeClassname: 'vscode-icons:file-type-sql',
     // },
     {
-      skillName: 'mongoDB',
+      skillName: 'MongoDB',
       fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+    },
+    {
+      skillName: 'ReactNative',
+      fontAwesomeClassname: 'vscode-icons:file-type-reacttemplate',
+    },
+    {
+      skillName: 'npm',
+      fontAwesomeClassname: 'vscode-icons:file-type-npm',
     },
     // {
     //   skillName: 'aws',
@@ -201,10 +205,7 @@ export const experience = [
     companylogo: pa_logo,
     logowidth: '300px',
     date: 'Juillet 2018 – Octobre 2018',
-    descBullets: [
-      "Extraction de données web (HTML5 & CSS3)",
-      "Développement de webhooks Slack & Discord (Python)",
-    ],
+    descBullets: ['Extraction de données web (HTML5 & CSS3)', 'Développement de webhooks Slack & Discord (Python)'],
   },
 ]
 
