@@ -36,7 +36,7 @@ const GithubProfileCard = ({ prof }) => {
               <p className="text-white mb-0">{prof.bio}</p>
               <p className="text-white mb-2">
                 <i className="fa fa-envelope mr-2" />
-                axel.conceicao@epitech.eu
+                axel@conceicao.io
               </p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-dark">
                 <i className="ni ni-pin-3 text-dark mr-2" />
