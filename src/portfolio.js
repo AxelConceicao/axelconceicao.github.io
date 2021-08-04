@@ -12,7 +12,8 @@ export const greetings = {
   name: 'Axel Conceicao',
   title: 'Bonjour 👋,',
   description:
-    "Je m'appelle Axel Conceicao j'ai 22 ans et je suis étudiant en 4e année à l'Epitech. Passionné d'informatique et de la culture numérique mon objectif professionnel serait de travailler dans le développement web et plus précisément dans le front-end.",
+    'Étudiant de 22 ans en 4e année à Epitech. Passionné par la programmation, le monde du web et les nouvelles technologies, je souhaiterais me positionner en tant que développeur web front-end.',
+  // "Je m'appelle Axel Conceicao j'ai 22 ans et je suis étudiant en 4e année à l'Epitech. Passionné d'informatique et de la culture numérique mon objectif professionnel serait de travailler dans le développement web et plus précisément dans le front-end.",
   resumeLink: 'https://cvdesignr.com/p/60a3b0803bac1?hl=fr_FR',
 }
 
